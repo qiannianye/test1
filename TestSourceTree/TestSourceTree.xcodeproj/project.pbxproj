@@ -15,6 +15,7 @@
 		A7782D1E1E76DAA000A7FA17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7782D1C1E76DAA000A7FA17 /* LaunchScreen.storyboard */; };
 		A7782D291E76DAA000A7FA17 /* TestSourceTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7782D281E76DAA000A7FA17 /* TestSourceTreeTests.m */; };
 		A7782D341E76DAA000A7FA17 /* TestSourceTreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7782D331E76DAA000A7FA17 /* TestSourceTreeUITests.m */; };
+		A7782D4A1E76E82800A7FA17 /* RedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7782D491E76E82800A7FA17 /* RedVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A7782D2F1E76DAA000A7FA17 /* TestSourceTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSourceTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7782D331E76DAA000A7FA17 /* TestSourceTreeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSourceTreeUITests.m; sourceTree = "<group>"; };
 		A7782D351E76DAA000A7FA17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7782D481E76E82800A7FA17 /* RedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedVC.h; sourceTree = "<group>"; };
+		A7782D491E76E82800A7FA17 /* RedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,20 +146,6 @@
 			path = TestSourceTreeUITests;
 			sourceTree = "<group>";
 		};
-		A7782D431E76E52000A7FA17 /* 123456 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = 123456;
-			sourceTree = "<group>";
-		};
-		A7782D441E76E52E00A7FA17 /* 1233445 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = 1233445;
-            sourceTree = "<group>";
-        };
 		A7782D411E76E4E700A7FA17 /* 123 */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +159,22 @@
 			children = (
 			);
 			name = 124;
+			sourceTree = "<group>";
+		};
+		A7782D431E76E52000A7FA17 /* 123456 */ = {
+			isa = PBXGroup;
+			children = (
+				A7782D481E76E82800A7FA17 /* RedVC.h */,
+				A7782D491E76E82800A7FA17 /* RedVC.m */,
+			);
+			name = 123456;
+			sourceTree = "<group>";
+		};
+		A7782D441E76E52E00A7FA17 /* 1233445 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 1233445;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +309,7 @@
 			files = (
 				A7782D161E76DAA000A7FA17 /* ViewController.m in Sources */,
 				A7782D131E76DAA000A7FA17 /* AppDelegate.m in Sources */,
+				A7782D4A1E76E82800A7FA17 /* RedVC.m in Sources */,
 				A7782D101E76DAA000A7FA17 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
