@@ -37,8 +37,8 @@
 /* Begin PBXFileReference section */
 		A7782D0B1E76DAA000A7FA17 /* TestSourceTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSourceTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7782D0F1E76DAA000A7FA17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A7782D111E76DAA000A7FA17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A7782D121E76DAA000A7FA17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7782D111E76DAA000A7FA17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TestSourceTree/AppDelegate.h; sourceTree = "<group>"; };
+		A7782D121E76DAA000A7FA17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TestSourceTree/AppDelegate.m; sourceTree = "<group>"; };
 		A7782D141E76DAA000A7FA17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A7782D151E76DAA000A7FA17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A7782D181E76DAA000A7FA17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -81,6 +81,8 @@
 		A7782D021E76DAA000A7FA17 = {
 			isa = PBXGroup;
 			children = (
+				A7782D111E76DAA000A7FA17 /* AppDelegate.h */,
+				A7782D121E76DAA000A7FA17 /* AppDelegate.m */,
 				A7782D0D1E76DAA000A7FA17 /* TestSourceTree */,
 				A7782D271E76DAA000A7FA17 /* TestSourceTreeTests */,
 				A7782D321E76DAA000A7FA17 /* TestSourceTreeUITests */,
@@ -101,8 +103,6 @@
 		A7782D0D1E76DAA000A7FA17 /* TestSourceTree */ = {
 			isa = PBXGroup;
 			children = (
-				A7782D111E76DAA000A7FA17 /* AppDelegate.h */,
-				A7782D121E76DAA000A7FA17 /* AppDelegate.m */,
 				A7782D141E76DAA000A7FA17 /* ViewController.h */,
 				A7782D151E76DAA000A7FA17 /* ViewController.m */,
 				A7782D171E76DAA000A7FA17 /* Main.storyboard */,
@@ -496,6 +496,7 @@
 				A7782D3A1E76DAA000A7FA17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7782D3B1E76DAA000A7FA17 /* Build configuration list for PBXNativeTarget "TestSourceTreeTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +505,7 @@
 				A7782D3D1E76DAA000A7FA17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7782D3E1E76DAA000A7FA17 /* Build configuration list for PBXNativeTarget "TestSourceTreeUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +514,7 @@
 				A7782D401E76DAA000A7FA17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
